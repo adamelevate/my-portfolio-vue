@@ -1,0 +1,104 @@
+/* @font-face {
+  font-family: "cartonSlab";
+  src: url("carton-slab-webfont.eot");
+  src: url("carton-slab-webfont.eot") format("embedded-opentype"),
+       url("carton-slab-webfont.woff") format("woff"),
+       url("carton-slab-webfont.ttf") format("truetype");
+       url("carton-slab-webfont.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+} */
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "Attika";
+  src: url("AttikaGX.eot"); /* IE9 Compat Modes */
+  src: url("AttikaGX.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("AttikaGX.otf") format("opentype"), /* Open Type Font */
+    /* url("AttikaGX.svg") format("svg"), /* Legacy iOS */ */
+    url("AttikaGX.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("AttikaGX.woff") format("woff"), /* Modern Browsers */
+    url("AttikaGX.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "MADETommySoft-Bold";
+  src: url("MADETommySoftBoldPERSONALUSE.eot"); /* IE9 Compat Modes */
+  src: url("MADETommySoftBoldPERSONALUSE.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("MADETommySoftBoldPERSONALUSE.otf") format("opentype"), /* Open Type Font */
+    /* url("MADETommySoftBoldPERSONALUSE.svg") format("svg"), /* Legacy iOS */
+    url("MADETommySoftBoldPERSONALUSE.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("MADETommySoftBoldPERSONALUSE.woff") format("woff"), /* Modern Browsers */
+    url("MADETommySoftBoldPERSONALUSE.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "MADETommySoft";
+  src: url("MADETommySoftRegularPERSONALUSE.eot"); /* IE9 Compat Modes */
+  src: url("MADETommySoftRegularPERSONALUSE.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("MADETommySoftRegularPERSONALUSE.otf") format("opentype"), /* Open Type Font */
+    url("MADETommySoftRegularPERSONALUSE.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("MADETommySoftRegularPERSONALUSE.woff") format("woff"), /* Modern Browsers */
+    url("MADETommySoftRegularPERSONALUSE.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "Menlo-Regular";
+  src: url("MenloRegular.eot"); /* IE9 Compat Modes */
+  src: url("MenloRegular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("MenloRegular.otf") format("opentype"), /* Open Type Font */
+    url("MenloRegular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("MenloRegular.woff") format("woff"), /* Modern Browsers */
+    url("MenloRegular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter-Regular.eot');
+    src: url('Inter-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Inter-Regular.woff2') format('woff2'),
+        url('Inter-Regular.woff') format('woff'),
+        url('Inter-Regular.ttf') format('truetype');
+        /* url('Inter-Regular.svg#Inter-Regular') format('svg'); */
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter-Bold.eot');
+    src: url('Inter-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Inter-Bold.woff2') format('woff2'),
+        url('Inter-Bold.woff') format('woff'),
+        url('Inter-Bold.ttf') format('truetype');
+        /* url('Inter-Bold.svg#Inter-Bold') format('svg'); */
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter-Medium.eot');
+    src: url('Inter-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Inter-Medium.woff2') format('woff2'),
+        url('Inter-Medium.woff') format('woff'),
+        url('Inter-Medium.ttf') format('truetype');
+        /* url('Inter-Medium.svg#Inter-Medium') format('svg'); */
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
