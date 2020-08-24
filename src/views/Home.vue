@@ -285,34 +285,6 @@ export default {
       p{
         font-size: 15px;
       }
-      .blue-bg{
-        background: rgb(255,255,255);
-        background: linear-gradient(333deg, rgba(255,255,255,1) 0%, rgba(215,231,255,1) 100%);
-        h3{
-          color: #4B85E0;
-        }
-      }
-      .pink-bg{
-        background: rgb(255,255,255);
-        background: linear-gradient(333deg, rgba(255,255,255,1) 0%, rgba(255,222,236,1) 100%);
-        h3{
-          color: #EB5795;
-        }
-      }
-      .gold-bg{
-        background: rgb(255,255,255);
-        background: linear-gradient(333deg, rgba(255,255,255,1) 0%, rgba(255,244,205,1) 100%);
-        h3{
-          color: #D7AC0D;
-        }
-      }
-      .green-bg{
-        background: rgb(255,255,255);
-        background: linear-gradient(333deg, rgba(255,255,255,1) 0%, rgba(207,255,218,1) 100%);
-        h3{
-          color: #43C762;
-        }
-      }
   }
 
   blockquote {

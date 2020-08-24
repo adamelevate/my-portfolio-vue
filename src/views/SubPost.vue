@@ -77,7 +77,7 @@
       </v-row>
 
       <v-container>
-        <v-card width="300" class="mx-auto text-center grey lighten-2" @click="$router.push({path:`/work/${post.slug}`})">
+        <v-card width="300" class="elevation-0 mx-auto text-center blue-bg" @click="$router.push({path:`/work/${post.slug}`})">
           <v-card-subtitle class="text-center pb-0">This is a part of a larger project:</v-card-subtitle>
           <v-card-title class="text-center primary--text pt-0">
             <div class="text-center" style="width:100%">{{subpost.fields.parent_page.name}}</div>
