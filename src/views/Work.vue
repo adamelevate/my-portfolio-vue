@@ -28,8 +28,8 @@
         <v-row class="pa-4 pt-0" align="center" justify="space-between">
           <v-col cols="12" md="6" xl="4" v-for="post in posts" :key="post.title">
             <v-card class="elevation-0 ma-2" @click="goTo(post)">
-                <div class="tags mx-4 py-2" v-html="post.fields.tags"></div>
-              <v-img :src="post.fields.thumbnail" height="275px" postion="top center"></v-img>
+                <div class="tags mx-4 py-2 d-flex" v-html="post.fields.tags"></div>
+              <v-img :src="post.fields.thumbnail" height="275px" postion="center top"></v-img>
               <v-card-title class="grey--text text--darken-1">{{post.fields.title}}</v-card-title>
                <v-card-subtitle class="text-left">{{post.fields.description}}</v-card-subtitle>
             </v-card>
@@ -62,7 +62,7 @@ export default {
     getOrganizedPosts(){
       let vThis = this;
       function compare(a, b) {
-        return a.fields.date_published > b.fields.date_published ? 1: -1
+        return a.fields.date_published < b.fields.date_published ? 1: -1
       }
 
       this.getPosts().then(posts =>{
@@ -75,14 +75,14 @@ export default {
          page: 1,
          order:'-date_published',
          levels: 2,
-         // page_size: 4
        }).then((res) => {return res.data.data});
 
      let subwork = await butter.page.list('subwork',{
         page: 1,
-        // order:'-date_published',
+        order:'-date_published',
         // page_size: 4
       }).then((res) => {return res.data.data})
+    // }).then((res) => {return []})
 
       return work.concat(subwork);
    },
@@ -151,9 +151,11 @@ export default {
         ul{
           list-style: none;
           display: flex;
+          flex-wrap:wrap;
           margin: 0!important;
           padding: 0!important;
           li{
+            flex: 1 1 auto;
             margin-right: 5px;
             font-size: 11px;
             background: rgba(255,255,255,.75);

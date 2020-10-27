@@ -57,7 +57,7 @@
             <v-btn v-for="link in links" :key="link.text"
               class="mr-2"
               active-class="active"
-              :class="[link.text]"
+              :class="[link.text, {'hidden-md-and-up': link.text == 'Contact'}]"
               text
               :to="link.path">
               {{link.text}}
@@ -91,10 +91,10 @@ export default {
     return{
       drawer: false,
       links: [
-        {'icon': 'mdi-home', 'text': 'Home', 'path': '/'},
-        {'icon': 'mdi-playlist-star', 'text': 'Skills', 'path': '/skills'},
-        {'icon': 'mdi-image-multiple', 'text': 'Work', 'path': '/work'},
-        {'icon': 'mdi-image-multiple', 'text': 'Contact', 'path': '/contact'},
+        {'icon': 'mdi-home', 'text': 'Home', 'path': '/', showDesktop: false},
+        {'icon': 'mdi-playlist-star', 'text': 'Skills', 'path': '/skills', showDesktop: false},
+        {'icon': 'mdi-image-multiple', 'text': 'Work', 'path': '/work', showDesktop: false},
+        {'icon': 'mdi-image-multiple', 'text': 'Contact', 'path': '/contact', showDesktop: false},
       ]
     }
   },
