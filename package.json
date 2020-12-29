@@ -12,7 +12,8 @@
     "core-js": "^3.6.5",
     "intersection-observer": "^0.11.0",
     "vue": "^2.6.11",
-    "vue-router": "^3.4.3",
+    "vue-gtag": "^1.10.0",
+    "vue-router": "^3.4.8",
     "vue-scrollama": "^1.1.9",
     "vuetify": "^2.3.9",
     "vuex": "^3.4.0"

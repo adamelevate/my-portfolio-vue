@@ -7,6 +7,13 @@ import firebase from './firebase'; // eslint-disable-line no-unused-vars
 
 import Plugins from './plugins/plugins'
 
+import VueGtag from "vue-gtag";
+
+Vue.use(VueGtag, {
+  config: { id: "240771366" }
+}, router);
+
+
 
 require("../public/fonts/AttikaGX.ttf");
 
