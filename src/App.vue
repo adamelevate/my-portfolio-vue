@@ -42,6 +42,8 @@ p{
 }
 #flying-focus{
   position: fixed!important;
+  z-index:-1;
+  visibility: hidden!important;
 }
 
 .blue-bg{

@@ -42,7 +42,7 @@
 							sending...
 						</template>
 						<template v-else>
-							Send Me Your Message
+							Send Me A Message
 						</template>
 					</v-btn>
 					<v-btn @click="clear">clear</v-btn>

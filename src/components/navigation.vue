@@ -38,7 +38,7 @@
 
 
 
-  <v-container class="" >
+  <v-container class="pa-6" >
       <v-row align="center" justify="space-between">
         <div class="flex-auto">
           <v-row>
@@ -66,9 +66,9 @@
           <!-- <v-row class="links flex-auto">
             <v-btn class="mr-2" text href="https://docs.google.com/document/d/1VujJK-PKmFpU6O7F_1ID557I65Kya8oLVP0eCQUCeug/edit?usp=sharing">Resume</v-btn>
           </v-row> -->
-          <v-row class="links flex-auto">
+          <div class="links flex-auto">
             <v-btn class="mr-2 Contact" active-class="active" text to="/contact">Contact <v-icon class="ml-2">mdi-forum-outline</v-icon></v-btn>
-          </v-row>
+          </div>
         </template>
         <template v-else>
             <div class="flex-auto py-0">
